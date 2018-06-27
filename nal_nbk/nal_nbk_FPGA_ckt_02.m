@@ -2,8 +2,7 @@ function cktnetlist = nal_nbk_FPGA_ckt_02()
 % --------------------------------------------------------------------------------
 % Syntax : cktnetlist = nal_nbk_FPGA_ckt_02()
 % 
-% To see the schematic of this circuit : showimage('FPGA_ckt_02.eps');
-% To see the partition of this ciruuit : showimage('FPGA_ckt_02_partition.eps');
+% this will return cktnetlist of non disconnected simple ckt for FPGA 
 % --------------------------------------------------------------------------------
 
 % ------------------ written on : Mar 31, 2018 ------------------------

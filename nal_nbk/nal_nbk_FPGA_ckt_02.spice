@@ -44,8 +44,76 @@ v35 20 0 DC 20
 .op 
 .control
 run
-print all
+print (v(1) - v(2))
+print (v(1) - v(3))
+print (v(2) - v(3))
+print (v(2) - v(4))
+print (v(3) - v(4))
+print (v(3) - v(6))
+print (v(2) - v(5))
+print (v(4) - v(5))
+print (v(2) - v(6))
+print (v(5) - v(6))
+print (v(5) - v(7))
+print (v(6) - v(7))
+*************************
+print (v(3) - v(9))
+print (v(6) - v(11))
+print (v(8) - v(9))
+print (v(8) - v(10))
+print (v(9) - v(10))
+print (v(9) - v(11))
+print (v(10) - v(12))
+print (v(11) - v(12))
+print (v(11) - v(13))
+print (v(12) - v(13))
+print (v(10) - v(15))
+print (v(12) - v(17))
+*************************
+print (v(14) - v(15))
+print (v(14) - v(16))
+print (v(15) - v(16))
+print (v(15) - v(17))
+print (v(16) - v(18))
+print (v(17) - v(18))
+print (v(17) - v(19))
+print (v(18) - v(19))
+************************
+print (v(16) - v(20))
+print (v(18)        )
+print (v(20)        )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .endc
+
 
 .end
 

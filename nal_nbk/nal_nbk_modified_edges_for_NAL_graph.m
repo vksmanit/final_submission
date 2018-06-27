@@ -9,7 +9,7 @@ function all_modified_edges_for_NAL =  nal_nbk_modified_edges_for_NAL_graph(cktn
 % --------------------------- written on : Mar 13, 2018 --------------------------
 
     L_Branch = nal_nbk_L_branch_hybrid_analysis(cktnetlist);
-    K_Branch = nal_nbk_K_branch_hybrid_analysis(cktnetlist);
+    K_Branch = nal_nbk_K_branch_hybrid_analysis_new(cktnetlist);
     common_nodes = nal_nbk_A_and_B_common_nodes(cktnetlist);
     [nodeVisited,edgeId_of_tree_of_A,dfs_nodes_of_A]= nal_nbk_dfs_search_of_G_dot_A(cktnetlist);
     super_node = nal_nbk_super_node_of_forest_of_G(cktnetlist);

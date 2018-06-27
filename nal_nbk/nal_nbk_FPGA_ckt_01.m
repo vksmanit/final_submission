@@ -2,8 +2,8 @@ function cktnetlist = nal_nbk_FPGA_ckt_01()
 % --------------------------------------------------------------------------------
 % Syntax : cktnetlist = nal_nbk_FPGA_ckt_01()
 %
-% To see the schematic of this circuit : showimage('FPGA_ckt_01.eps');
-% To see the partition of this ciruuit : showimage('FPGA_ckt_01_partition.eps');
+% This will result an example ckt which we will use to illustrate the FPGA NALNBK 
+% solution method for solving a circuit in real time.
 % --------------------------------------------------------------------------------
 
 % ------------------------------ written : Mar 05, 2018 --------------------------

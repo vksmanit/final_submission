@@ -16,6 +16,7 @@ function [nodeVisited,edgeId_of_tree_of_G,dfs_nodes_of_A,dfs_nodes_of_B]= nal_nb
 % It first search the nodes/edges in Graph G.A and complete DFS in gull graph G.
 % --------------------------------------------------------------------------------
 
+% -- ERROR -- it is returning wrong dfs_node_of_B -- but can be taken 
 % ------------------------------ written on: Oct 08, 2017 ------------------------
     global g1_of_B;
     global nodeVisited;
